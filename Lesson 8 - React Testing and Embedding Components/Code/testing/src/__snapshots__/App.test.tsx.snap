@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component App component snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <h1
+      class="text-center my-4"
+    >
+      Users List
+    </h1>
+    <div
+      class="mb-3"
+    >
+      <div
+        class="input-group"
+      >
+        <input
+          class="form-control"
+          placeholder="Filter by First Name"
+          type="text"
+          value=""
+        />
+        <input
+          class="form-control"
+          placeholder="Filter by Last Name"
+          type="text"
+          value=""
+        />
+        <input
+          class="form-control"
+          placeholder="Filter by Email"
+          type="text"
+          value=""
+        />
+        <button
+          class="btn btn-primary"
+        >
+          Filter
+        </button>
+      </div>
+    </div>
+    <table
+      class="table"
+    >
+      <thead>
+        <tr>
+          <th>
+            #
+          </th>
+          <th>
+            First
+          </th>
+          <th>
+            Last
+          </th>
+          <th>
+            Email
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            1
+          </td>
+          <td>
+            John
+          </td>
+          <td>
+            Doe
+          </td>
+          <td>
+            john@example.com
+          </td>
+        </tr>
+        <tr>
+          <td>
+            2
+          </td>
+          <td>
+            Jane
+          </td>
+          <td>
+            Doe
+          </td>
+          <td>
+            jane@example.com
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,28 @@
+.postlist-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.postlist-item {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    list-style-type: none;
+}
+
+.postlist-item:last-child {
+    border-bottom: none;
+}
+
+.postlist-item strong {
+    display: block;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.postlist-item:hover {
+    background-color: #f9f9f9;
+}
